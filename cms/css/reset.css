@@ -1,0 +1,92 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.separ, .separ_blank, .separ_menus {
+	
+	clear: both;
+	display: block;
+	border: 0;
+	border-top: 1px dotted #444;
+	height: 1px;
+	width: 100%;
+	padding: 15px 0;
+}
+
+.separ_blank {
+	
+	border: 0;
+}
+
+.separ_final {
+	
+	clear: both;
+	display: block;
+	border: 0;
+	border-top: 1px solid #444;
+	height: 1px;
+	width: 100%;
+	margin-top: 20px;
+	padding:  0;
+}
+
+.separ_menus {
+	
+	border: 0;
+	border-bottom:1px dotted #333;
+	margin: 8px 0 8px 0;
+	padding: 0;
+	padding-top: 8px;
+}
+

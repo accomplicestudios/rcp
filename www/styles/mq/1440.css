@@ -1,0 +1,188 @@
+h2 {
+
+    font-size: 72px; 
+    line-height: 1; 
+}
+
+h3 {
+    font-size: 21px; 
+    line-height: 1.52; 
+}
+
+header {
+
+    min-height: 200px;
+}
+
+header .logo img {
+
+    width: 256px;
+}
+
+.artists header, 
+.exhibitions header {
+
+    min-height: 160px; 
+}
+
+.artists header .logo img,
+.exhibitions header .logo img {
+
+    width: 194px;
+}
+
+header .navs {
+
+    font-size: 24px; 
+}
+
+
+footer .contact li {
+
+	display: inline; 
+	padding-left: 40px;
+	vertical-align: top;
+
+}
+
+section {
+
+    width: 33%;
+    padding-bottom: 0;
+    min-height: 280px;
+}
+
+section:nth-child(2n) {
+
+    clear: none;
+}
+
+section.splash {
+
+    width: 67%;
+    float: right; 
+    padding-bottom: 0;
+}
+
+section.hours {
+
+    clear: both; 
+}
+
+section.parking {
+
+    width: 34%;
+}
+
+section h2 {
+
+    font-size: 24px;
+}
+
+section p {
+
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+section.splash p {
+
+    width: 833px;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 1.3px;
+}
+
+
+.artists .list {
+
+    width: 177px; 
+}
+
+.artists .feature-holder {
+
+	height: calc(100vh - 160px - 57px - 40px); 
+}
+
+
+
+.artists .list h2 {
+
+    font-size: 18px; 
+    padding-bottom: 16px;
+    letter-spacing: 0.5px;
+}
+
+.news-3 {
+
+    display: block;
+}
+
+.news-2, .news-1 {
+
+    display: none;
+}
+
+.news section > * {
+
+    width: 350px; 
+}
+
+.exhibitions h3 {
+
+    font-size: 72px; 
+    line-height: 1;
+}
+
+.exhibitions .dates {
+    padding-top: 20px; 
+}
+
+
+.exhibitions section:first-child {
+
+    padding-bottom: 95PX;
+}
+
+
+.exhibitions section h2.installations {
+
+    margin-bottom: 95px;
+}
+
+.gallery {
+
+    padding-bottom: 95px; 
+}
+
+.gallery-1, 
+.gallery-2 {
+
+    padding-bottom: 0;
+}
+
+
+.news main {
+
+    clear: both; 
+    position: relative; 
+    min-height: calc(100vh - 200px - 188PX);
+    float: left; 
+}
+
+.xlist div {
+
+    width: calc( (100% / 3) - 11px);
+    margin-left: 0;
+    margin-right: 16px;
+}
+
+.xlist div:nth-child(2n) {
+
+    margin-left: 0;
+}
+
+.xlist div:nth-child(3n) {
+
+    margin-right: 0; 
+}

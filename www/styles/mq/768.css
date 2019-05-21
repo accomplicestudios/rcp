@@ -1,0 +1,416 @@
+h1, h2, h3 { 
+
+    font-size: 56px;
+    line-height: 1;
+    letter-spacing: normal;
+}
+
+h3 {
+    margin-top: 30px;
+    font-size: 21px; 
+	line-height: 1.52; 
+	letter-spacing: normal;
+}
+
+header > div {
+
+    padding: 40px;
+    /* width: calc(100vw - 40px); */
+}
+
+header .logo img {
+
+    width: 194px;
+}
+
+header .navs {
+
+    font-size: 20px; 
+	line-height: normal;
+	letter-spacing: 0.1px; 
+}
+
+header .navs li {
+
+	padding-left: 20px;
+}
+
+header .navs li.activate {
+
+    display: inline;
+}
+
+main {
+
+    margin-top: 17px;
+    padding: 40px;
+    width:calc(100vw - 80px);
+}
+
+footer {
+	
+    margin-top: 88px; 
+    padding: 40px;
+
+	display: table;
+	width: calc(100% - 80px);
+}
+
+footer .contact {
+
+	display: table-cell;
+	width: 50%;
+}
+
+footer .social {
+
+	margin-top: 0;
+	display: table-cell;
+	width: 50%;
+
+	vertical-align: bottom;
+	text-align: right; 
+}
+
+section {
+
+    position: relative;
+    float: left; 
+    clear: none; 
+
+    display: block; 
+    width: 50%;
+}
+
+section:nth-child(2n) {
+
+    clear: both;
+}
+
+section.splash {
+
+    width: 100%;
+    clear: both;
+}
+
+section.splash h2 {
+
+    margin-bottom: 20px;
+}
+
+section.splash p {
+
+    width: 600px;
+}
+
+section p {
+
+    letter-spacing: 0.6px;
+}
+
+section.parking p, 
+section.hours p {
+
+    padding: 0;
+}
+
+section p span {
+    display: inline;
+    clear: none;
+}
+
+.antihero p {
+
+    padding-top: 30px;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.artists .list {
+
+    float: left;
+    width: 160px; 
+}
+
+.artists .feature-holder {
+
+    display: block; 
+    float: right; 
+    width: calc(100vw - 80px - 160px - 20px);
+    /* width: 512px;  */
+    /* viewport_height - header_size - main_div_margin_and_padding - bottom_padding */
+    height: calc(100vh - 160px - 57px - 40px); 
+    text-align: right;
+}
+
+.artists .list h2 {
+
+    padding-top: 0; 
+
+    float: left; 
+    clear: both; 
+
+    display: block; 
+
+    padding-bottom: 14px;
+
+    text-align: left;
+}
+
+.artists .list img {
+
+    /* we hide it because we are just cloning it for this resolution and above */
+    display: none;
+}
+
+.artists .feature-holder img {
+
+    max-width: 100%; 
+    max-height: 100%; 
+}
+
+.artists section { 
+
+    width: 100%; 
+}
+
+
+.artists section h2 {
+
+    width: 50%;
+    float:left; 
+    clear: none; 
+    letter-spacing: 0.1px;
+    margin-bottom: 9px;
+
+}
+
+.artists section .jumps {
+
+    width: 50%;
+    padding-top: 7px;
+    float: left;  
+    clear: none; 
+    text-align:right;
+}
+
+
+.artists section .jumps li {
+
+    padding-right: 0;
+    padding-left: 24px; 
+}
+
+.artists .pager li img {
+
+    max-width: 100%; 
+    max-height: 171px;
+}
+
+
+.news-3, .news-1 {
+
+    display: none; 
+}
+
+.news-2 {
+
+    display: block;
+}
+
+.news section {
+
+    float: left; 
+    clear: none; 
+}
+
+.news section > * {
+
+    width: 95%; 
+}
+
+.news section h2 {
+
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.news section p {
+
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.news section p a:link, 
+.news section p a:visited, 
+.news section p a:hover, 
+.news section p a:active {
+
+    font-size: 16px;
+    line-height: 36px;
+} 
+
+.overlay {
+
+    padding: 128px;
+    width: calc(100vw - 128px - 128px);
+    height: calc(100vh - 128px - 64px); 
+}
+
+.overlay .controls {
+
+    position: absolute; 
+    top: calc((100vh / 2) - 150px);
+    left: calc(100% - 60px);
+
+    font-size: 16px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.overlay .controls span > span {
+
+    font-size: 16px;
+    clear: both;
+    display: block;
+    width: 20px;
+    line-height: 2;
+    /* border: 1px solid red;  */
+}
+
+.overlay .controls span.previous, 
+.overlay .controls span.next {
+
+    font-size: 24px; 
+    padding-left: 0; 
+    padding-right: 0;
+} 
+
+.overlay .controls span.previous {
+
+    padding-bottom: 6px;
+}
+
+.overlay .item {
+
+    height: calc(100% - 64px);
+
+}
+
+.overlay .info {
+
+    padding-top: 64px;
+
+}
+
+.exhibitions section h2.profile {
+
+    text-align: right; 
+}
+
+.exhibitions section h2.installations {
+
+    margin-bottom: 48px;
+}
+
+
+.exhibitions h3 {
+
+    font-size: 56px; 
+    line-height: 1;
+    margin-top: 0;
+}
+
+.exhibitions .dates {
+
+    padding-top: 30px;
+}
+
+.exhibitions .dates p {
+
+    font-size: 21px;
+    line-height: 1.52;
+}
+
+.gallery {
+
+    clear: both;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding-bottom: 48px;
+}
+
+.gallery-1, 
+.gallery-2 {
+
+    padding-bottom: 0;
+}
+
+.gallery-installations:last-child {
+
+    padding-bottom: 0;
+}
+
+
+.gallery div {
+
+    padding: 10px;
+}
+
+.gallery div:first-child {
+
+    padding-left: 0; 
+}
+
+.gallery div:last-child {
+
+    text-align: right; 
+    padding-right: 0;
+}
+
+.gallery-1 div {
+
+    padding: 0;
+}
+
+.gallery-1 div img {
+
+    max-height: 461px; 
+    max-width: 100%; 
+}
+
+
+.gallery-2 div img {
+
+    max-height: 461px; 
+}
+
+
+.gallery-4 div img {
+
+    text-align: center;
+    max-height: 320px;
+
+    /* max-height: 162px; // original */
+}
+
+.xlist div {
+
+    width: calc(50% - 8px); 
+    float: left; 
+    clear: none;
+}
+
+.xlist div:nth-child(2n) {
+
+    margin-left: 16px;
+}
+
+.xlist span.heading h4, 
+.xlist span.heading p {
+
+    font-size: 32px;
+    line-height: 36px;
+}
