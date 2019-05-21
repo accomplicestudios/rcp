@@ -1,0 +1,12 @@
+navs logic:
+
+if navs = current page 
+	add class = current
+		if (small resolution) {
+			move to the top
+		}
+		else if {
+			move to the end 
+		}
+
+	also bind to window.resize the li element movement ?

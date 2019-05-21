@@ -1,0 +1,138 @@
+footer {
+	
+	margin-top: 68px;
+	line-height: 1.71;
+
+	/* compensate for line-height */
+	padding-bottom: 30px;
+}
+
+footer .contact {
+
+	width: 70%;
+}
+
+footer .social {
+
+	width: 30%;
+}
+
+footer .contact li {
+
+	display: inline; 
+	padding-left: 20px;
+	vertical-align: top;
+
+}
+
+footer .contact li:first-child {
+	padding-left: 0;
+}
+
+footer .social li {
+
+	vertical-align: top;
+}
+
+section.splash p {
+
+	font-size: 32px;
+    width: 620px;
+}
+
+.antihero p {
+
+    padding-top: 25px;
+}
+
+.artists .feature-holder {
+
+	height: calc(100vh - 180px - 57px - 20px); 
+}
+
+.artists .feature-holder img {
+
+	height: 100%; 
+}
+
+
+.artists section h2 {
+
+	font-size: 24px; 
+}
+
+.artists section .jumps {
+
+    width: 50%;
+    padding-top: 7px;
+    float: left;  
+    clear: none; 
+    text-align:right;
+}
+
+.news section h2 {
+
+    font-size: 36px;
+    line-height: 38px;
+}
+
+.news section p {
+
+    font-size: 36px;
+    line-height: 38px;
+}
+
+.exhibitions .title {
+
+	float: left; 
+	clear: none; 
+	width: 55%; 
+}
+
+.exhibitions .dates {
+
+	float: left; 
+	clear: none; 
+	width: 45%; 
+
+	text-align: right; 
+}
+
+.exhibitions section h2.installations {
+
+    margin-bottom: 66px;
+}
+
+.gallery {
+    
+    padding-bottom: 66px;
+}
+
+.gallery-1, 
+.gallery-2 {
+    
+    padding-bottom: 0; 
+}
+
+.gallery-1 div img {
+
+    max-height: 630px;
+}
+
+.gallery-2 div {
+
+    padding-bottom: 0;
+}
+
+.xlist p {
+
+    font-size: 36px; 
+    line-height: 1; 
+}
+
+.xlist span.heading h4, 
+.xlist span.heading p {
+
+    font-size: 36px;
+    line-height: 38px;
+}
